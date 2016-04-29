@@ -16,7 +16,7 @@ class CreateImagesTable extends Migration
             $table->increments('id');
             $table->string('img_path', 255);
             $table->string('img_caption', 255);
-            $table->char('extention', 4);
+            $table->char('extension', 4);
             $table->string('size', 255);
             $table->timestamps();
             $table->softDeletes();
